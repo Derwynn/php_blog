@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MY HOMEWORK</title>
+
+    <link rel="stylesheet" href="./static/css/loginandreg.css">
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+</head>
+
+<body>
+    <div class="cotn_principal">
+        <div class="cont_centrar">
+            <div class="cont_login">
+                <div class="cont_info_log_sign_up">
+                    <div class="col_md_login">
+                        <div class="cont_ba_opcitiy">
+                            <h2>LOGIN</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            <button class="btn_login" onClick="cambiar_login()">LOGIN</button>
+                        </div>
+                    </div>
+                    <!-- <div class="col_md_sign_up">
+                        <div class="cont_ba_opcitiy">
+                            <h2>SIGN UP</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                            <button class="btn_sign_up" onClick="cambiar_sign_up()">SIGN UP</button>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="cont_back_info">
+                    <div class="cont_img_back_grey"> <img src="./static/image/po.jpg" alt="" /> </div>0
+                </div>
+                <div class="cont_forms">
+                    <div class="cont_img_back_"> <img src="./static/image/po.jpg" alt="" /> </div>
+                    <div class="cont_form_login"> <a href="#" onClick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>LOGIN</h2>
+                        <form id="formLogin" action="./index.php?c=admin&a=dologin" method="post">
+                            <input type="text" name='User' placeholder="User" autocomplete="off" />
+                            <input type="password" name='Password' placeholder="Password" />
+                            <!-- <input type="radio">保存密码</input> -->
+                            <input type='submit' value="LOGIN" class="btn_login"><br>
+                            <a href="">记住密码</a> |  <a href="">忘记密码</a>
+                        </form>
+                    </div>
+                    <div class="cont_form_sign_up"> <a href="#" onClick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                       <!--  <h2>SIGN UP</h2>
+                        <form id="formSign" action="./list.php" method="post">
+                            <input type="text" name='Email' placeholder="Email" />
+                            <input type="text" name='User' placeholder="User" />
+                            <input type="password" name='Password' placeholder="Password" />
+                            <input type="password" name='ConfirmPassword' placeholder="Confirm Password" />
+                            <input type='submit' value="SIGN UP0" class="btn_sign_up">
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./static/js/loginandreg.js"></script>
+
+</body>
+
+</html>
